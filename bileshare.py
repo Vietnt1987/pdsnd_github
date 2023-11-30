@@ -37,7 +37,7 @@ def get_filters():
             print('city_name not match');
             continue;
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, ... , june)
     while True:
          month = str(input('Please enter any one of the first 6 months or enter All to select all 6 months : ')).lower();
 
@@ -73,10 +73,9 @@ def get_filters():
             continue;
 
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
             day = str(input('input name of the day of week for filter by day, or can input "all" for no day need filter : ')).lower();
-
 
             if day == 'monday':
                 day = days[0]
